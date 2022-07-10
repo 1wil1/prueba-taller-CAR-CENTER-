@@ -41,6 +41,7 @@ CREATE TABLE [MANTENIMIENTO] (
   [IdMantenimiento] int,
   [matriculaVehiculo] varchar(10),
   [dctoMecanico] int,
+  [fecha] datetime,
   [estado] varchar(10),
   PRIMARY KEY ([IdMantenimiento]),
   CONSTRAINT [FK_MANTENIMIENTO.matriculaVehiculo]
