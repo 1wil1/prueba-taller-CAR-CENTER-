@@ -62,6 +62,7 @@ CREATE TABLE [FACTURA] (
   [IdFactura] int,
   [dctoCliente] int,
   [dctoMecanico] int,
+  [fecha] datetime,
   [totalFactura] double,
   [iva] double,
   PRIMARY KEY ([IdFactura]),
