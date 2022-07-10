@@ -55,6 +55,7 @@ CREATE TABLE [MANTENIMIENTO] (
 CREATE TABLE [REPUESTO] (
   [IdRepuesto] int,
   [nombreRepuesto] varchar(50),
+  [cantidad] int,
   [precio] double,
   PRIMARY KEY ([IdRepuesto])
 );
